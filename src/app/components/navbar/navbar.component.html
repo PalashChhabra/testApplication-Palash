@@ -1,0 +1,46 @@
+<header class="horizontal-header sticky-header" data-menutoggle="991">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">
+          <a routerLink="/home">
+            <img
+              src="./assets/images/logo.png"
+              alt="Hotel"
+              style="max-width:100px;"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div id="toggle-menu-button" class="toggle-menu-button">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+
+      <nav id="main-menu" class="main-menu">
+        <ul class="menu">
+          <li class="menu-item dropdown active">
+            <a routerLink="/home">HOME</a>
+          </li>
+          <li class="menu-item dropdown">
+            <a routerLink="/roomview">ROOMS</a>
+            <ul class="submenu">
+                <li class="menu-item">
+                <a routerLink="/roomview">All Rooms</a>
+                </li>
+                <li class="menu-item">
+                <a routerLink="/singleroom">Single Room</a>
+                </li>
+              </ul>
+          </li>
+          <li class="menu-item menu-btn">
+            <a routerLink="/booking" class="btn">
+              <i class="fa fa-calendar"></i>
+              BOOK ONLINE</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>

@@ -1,0 +1,184 @@
+@media (min-width: 1200px) {
+     .container{
+        max-width:1200px
+    }
+}
+@media(max-width:1199.98px){
+    .section-title h4{
+        font-size:50px
+    }
+    .contact .contact-item h6{
+        font-size:11px
+    }
+}
+@media(max-width:991.98px){
+    header{
+        height:55px
+    }
+    header .brand{
+        padding:15px 0
+    }
+    header .brand .logo img{
+        max-width:100px
+    }
+    .mobile-header .toggle-menu-button{
+        margin-top:20px
+    }
+    .btn{
+        padding:10px;
+        font-size:13px;
+        width:100%
+    }
+    .btn.btn-lg{
+        padding:10px 18px;
+        font-size:18px
+    }
+    .horizontal-booking-form{
+        position:relative;
+        bottom:0;
+        top:15px
+    }
+    .horizontal-booking-form.booking-full-width{
+        top:0
+    }
+    .horizontal-booking-form.booking-full-width .form-control{
+        margin-bottom:10px
+    }
+    .horizontal-booking-form .inner .form-group{
+        margin-right:0
+    }
+    section{
+        padding:80px 0
+    }
+    main{
+        padding:80px 0;
+        overflow-x:hidden
+    }
+    .section-title{
+        padding-bottom:30px
+    }
+    .section-title h4{
+        font-size:40px
+    }
+    .section-title p{
+        font-size:13px
+    }
+    section.wave-white:before,section.wave-white:after,section.wave-blue:before,section.wave-blue:after{
+        display:none
+    }
+    section .room-grid-item,section .news-grid-item,section .newsv2-item,section .staff-item,section .offer-item,section .event-item,section .shop-item{
+        margin-bottom:30px
+    }
+    .rooms.rooms-over-slider{
+        margin-top:80px
+    }
+    section.services .owl-thumbs{
+        margin-top:15px
+    }
+    section.contact .contact-item{
+        margin-top:20px;
+        padding:10px 2px
+    }
+    section.contact-v2 .contact-details li:last-child{
+        margin-bottom:50px
+    }
+    section.info .info-branding{
+        margin-top:50px
+    }
+    .info-branding .providers{
+        margin-bottom:30px
+    }
+    .info-branding h4{
+        font-size:16px
+    }
+    .services-v2 .main-image{
+        margin-bottom:50px
+    }
+    .main-wrapper{
+        padding-left:0
+    }
+    .tp-bullets{
+        display:none
+    }
+    .page-title h1{
+        font-size:18px;
+        margin-bottom:0
+    }
+    .page-title .breadcrumb{
+        padding:0
+    }
+    .page-title .breadcrumb li,.page-title .breadcrumb li:last-child{
+        padding:0
+    }
+    .room-details-price{
+        font-size:16px;
+        margin-top:0
+    }
+    .page-title .inner{
+        padding:20px 0
+    }
+    .page-title .breadcrumb li,.page-title .breadcrumb a{
+        font-size:10px
+    }
+    .room-reviews .rating-details .review-summary{
+        margin-bottom:20px
+    }
+    .contact-page .google-map{
+        margin-top:0;
+        max-width:100%
+    }
+    .sidebar{
+        margin-top:50px;
+        padding-left:0
+    }
+    .room-list-item .room-info{
+        padding:30px
+    }
+    .room-list-item .room-price{
+        border-left:none;
+        padding:30px
+    }
+    .room-list-item figure a:before{
+        display:none
+    }
+    .room .vertical-booking-form-over-slider{
+        margin-top:0
+    }
+    .similar-rooms .room-grid-item{
+        margin-bottom:30px
+    }
+    label{
+        font-size:13px;
+        margin-bottom:0;
+        margin-top:10px
+    }
+}
+@media(max-width:767.98px){
+    .topbar .top-right-menu .top-menu .language-menu .languages{
+        min-width:105px
+    }
+    section{
+        padding:60px 0
+    }
+    .section-title h4,.section-title.sm h4{
+        font-size:30px
+    }
+    footer .footer-widgets .footer-widget{
+        margin-bottom:30px
+    }
+    footer .footer-widgets .footer-widget .inner .tripadvisor-banner{
+        text-align:left
+    }
+    footer .subfooter .copyrights,footer .subfooter .social-media{
+        float:none;
+        display:block;
+        text-align:center;
+        margin-top:15px
+    }
+    .room-block-item .room-info{
+        padding:30px
+    }
+    .room-block-item figure a:before{
+        display:none
+    }
+}

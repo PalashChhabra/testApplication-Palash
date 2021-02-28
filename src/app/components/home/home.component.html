@@ -1,0 +1,450 @@
+<section class="about gray wave-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4 xauto-test class="text-uppercase">Hotel Canstar<br>New Beginnings 2021.</h4>
+            <p class="section-subtitle">
+              High quality accommodation services
+            </p>
+          </div>
+          <div class="info-branding">
+            <p>
+              At The Canstar Hotel, we are committed to creating
+              state-of-the-art facilities and colourful experiences we
+              believe will change the way we live, work and travel and that
+              redefine our understanding of what makes a ‘traveler’.
+            </p>
+            <div class="providers">
+              <span>Recommended on:</span>
+
+              <div class="item">
+                <a href="#">
+                  <img src="./assets/images/providers/provider-1.png" alt="Image" />
+                </a>
+              </div>
+
+              <div class="item">
+                <a href="#">
+                  <img src="./assets/images/providers/provider-2.png" alt="Image" />
+                </a>
+              </div>
+
+              <div class="item">
+                <a href="#">
+                  <img src="./assets/images/providers/provider-3.png" alt="Image" />
+                </a>
+              </div>
+
+              <div class="item">
+                <a href="#">
+                  <img src="./assets/images/providers/provider-4.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="vertical-booking-form slider-booking-form">
+            <h3 class="form-title">BOOK YOUR ROOM</h3>
+            <div class="inner">
+              <form name="form" id="booking-form">
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    name="email"
+                    type="email"
+                    placeholder="Your Email Address"
+                  >
+                  </div>
+                <div class="form-group">
+                  <select
+                    name="roomtype"
+                    class="form-control"
+                    title="Select Room Type"
+                    data-header="Room Type"
+                  >
+                    <option value="Single">Single Room</option>
+                    <option value="Double">Double Room</option>
+                    <option value="Deluxe">Deluxe Room</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="datepicker form-control"
+                    name="booking-date"
+                    readonly="readonly"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <div class="panel-dropdown">
+                    <div class="form-control guestspicker">
+                      Guests <span class="gueststotal"></span>
+                    </div>
+                    <div class="panel-dropdown-content">
+                      <div class="guests-buttons">
+                        <label
+                          >Adults
+                          <a
+                            href="#"
+                            title=""
+                            data-toggle="popover"
+                            data-placement="top"
+                            data-trigger="hover"
+                            data-content="18+ years"
+                            data-original-title="Adults"
+                          >
+                            <i class="fa fa-info-circle"></i>
+                          </a>
+                        </label>
+                        <div class="guests-button">
+                          <div class="minus"></div>
+                          <input
+                            type="text"
+                            name="booking-adults"
+                            class="booking-guests"
+                            value="0" required
+                          />
+                          <div class="plus"></div>
+                        </div>
+                      </div>
+                      <div class="guests-buttons">
+                        <label
+                          >Cildren
+                          <a
+                            href="#"
+                            title=""
+                            data-toggle="popover"
+                            data-placement="top"
+                            data-trigger="hover"
+                            data-content="Under 18 years"
+                            data-original-title="Children"
+                          >
+                            <i class="fa fa-info-circle"></i>
+                          </a>
+                        </label>
+                        <div class="guests-button">
+                          <div class="minus"></div>
+                          <input
+                            type="text"
+                            name="booking-children"
+                            class="booking-guests"
+                            value="0" required
+                          />
+                          <div class="plus"></div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-book">
+                  BOOK A ROOM
+                </button>
+                <div class="advanced-form-link">
+                  <a routerLink="/booking">
+                    Detailed Booking Form
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rooms">
+    <div class="container">
+      <div class="section-title">
+        <h4>OUR ROOMS</h4>
+        <p class="section-subtitle">Our favorite rooms</p>
+        <a routerLink="/roomview" class="view-all">View all rooms</a>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div
+            class="room-grid-item animated fadeInUp wow"
+            data-wow-offset="30"
+            data-wow-delay=".2s"
+          >
+            <figure class="gradient-overlay-hover link-icon">
+              <a routerLink="/singleroom">
+                <img
+                  src="./assets/images/rooms/single/single1.jpg"
+                  class="img-fluid"
+                  alt="Image"
+                />
+              </a>
+              <div class="room-services">
+                <i
+                  class="fa fa-coffee"
+                  aria-hidden="true"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Breakfast Included"
+                  data-original-title="Breakfast"
+                ></i>
+                <i
+                  class="fa fa-wifi"
+                  aria-hidden="true"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Free WiFi"
+                  data-original-title="WiFi"
+                ></i>
+                <i
+                  class="fa fa-television"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Plasma TV with cable channels"
+                  data-original-title="TV"
+                ></i>
+              </div>
+              <div class="room-price">$89 / night</div>
+            </figure>
+            <div class="room-info">
+              <h2 class="room-title">
+                <a routerLink="/singleroom">Single Room</a>
+              </h2>
+              <p>Enjoy our single room</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="room-grid-item animated fadeInUp wow"
+            data-wow-offset="30"
+            data-wow-delay=".4s"
+          >
+            <figure class="gradient-overlay-hover link-icon">
+              <a routerLink="/singleroom">
+                <img
+                  src="./assets/images/rooms/double/double.jpg"
+                  class="img-fluid"
+                  alt="Image"
+                />
+              </a>
+              <div class="room-services">
+                <i
+                  class="fa fa-coffee"
+                  aria-hidden="true"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Breakfast Included"
+                  data-original-title="Breakfast"
+                ></i>
+                <i
+                  class="fa fa-wifi"
+                  aria-hidden="true"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Free WiFi"
+                  data-original-title="WiFi"
+                ></i>
+                <i
+                  class="fa fa-television"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Plasma TV with cable channels"
+                  data-original-title="TV"
+                ></i>
+              </div>
+              <div class="room-price">$129 / night</div>
+            </figure>
+            <div class="room-info">
+              <h2 class="room-title">
+                <a routerLink="/singleroom">Double Room</a>
+              </h2>
+              <p>Enjoy our double room</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="room-grid-item animated fadeInUp wow"
+            data-wow-offset="30"
+            data-wow-delay=".6s"
+          >
+            <figure class="gradient-overlay-hover link-icon">
+              <a routerLink="/singleroom">
+                <img
+                  src="./assets/images/rooms/deluxe/deluxe.jpg"
+                  class="img-fluid"
+                  alt="Image"
+                />
+              </a>
+              <div class="room-services">
+                <i
+                  class="fa fa-coffee"
+                  aria-hidden="true"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Breakfast Included"
+                  data-original-title="Breakfast"
+                ></i>
+                <i
+                  class="fa fa-bath"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="2 Bathrooms"
+                  data-original-title="Bathroom"
+                ></i>
+                <i
+                  class="fa fa-wifi"
+                  aria-hidden="true"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Free WiFi"
+                  data-original-title="WiFi"
+                ></i>
+                <i
+                  class="fa fa-television"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-trigger="hover"
+                  data-content="Plasma TV with cable channels"
+                  data-original-title="TV"
+                ></i>
+              </div>
+              <div class="room-price">$189 / night</div>
+            </figure>
+            <div class="room-info">
+              <h2 class="room-title">
+                <a routerLink="/singleroom">Deluxe Room</a>
+              </h2>
+              <p>Enjoy our delux room</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <div class="section-title">
+        <h4>Canstar SERVICES</h4>
+        <p class="section-subtitle">Check out our awesome services</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-7 col-12">
+          <div
+            data-slider-id="services"
+            class="services-owl owl-carousel animated fadeInUp wow"
+            data-wow-offset="30"
+            data-wow-delay=".2s"
+          >
+            <figure class="gradient-overlay">
+              <img
+                src="./assets/images/services/restaurant.jpg"
+                class="img-fluid"
+                alt="Image"
+              />
+              <figcaption>
+                <h4>Restaurant</h4>
+              </figcaption>
+            </figure>
+            <figure class="gradient-overlay">
+              <img
+                src="./assets/images/services/spa.jpg"
+                class="img-fluid"
+                alt="Image"
+              />
+              <figcaption>
+                <h4>Spa</h4>
+              </figcaption>
+            </figure>
+            <figure class="gradient-overlay">
+              <img
+                src="./assets/images/services/conference.jpg"
+                class="img-fluid"
+                alt="Image"
+              />
+              <figcaption>
+                <h4>Conference Room</h4>
+              </figcaption>
+            </figure>
+            <figure class="gradient-overlay">
+              <img
+                src="./assets/images/services/swimming.jpg"
+                class="img-fluid"
+                alt="Image"
+              />
+              <figcaption>
+                <h4>Swimming Pool</h4>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12">
+          <div
+            class="owl-thumbs animated fadeInUp wow"
+            data-wow-offset="30"
+            data-wow-delay=".2s"
+            data-slider-id="services"
+          >
+            <div class="owl-thumb-item">
+              <span class="media-left">
+                <i class="flaticon-tray-1"></i>
+              </span>
+              <div class="media-body">
+                <h5>Restaurant</h5>
+                <p>
+                  We offer in-house 5 Star Restaurant Services.
+                </p>
+              </div>
+            </div>
+            <div class="owl-thumb-item">
+              <span class="media-left">
+                <i class="flaticon-nature"></i>
+              </span>
+              <div class="media-body">
+                <h5>Spa - Beauty &amp; Health</h5>
+                <p>
+                    We offer in-house Spa, Therapy and Meditation facilities.
+                </p>
+              </div>
+            </div>
+            <div class="owl-thumb-item">
+              <span class="media-left">
+                <i class="flaticon-screen-1"></i>
+              </span>
+              <div class="media-body">
+                <h5>Conference Room</h5>
+                <p>
+                  We provide exquisite facilities for business meetings.
+                </p>
+              </div>
+            </div>
+            <div class="owl-thumb-item">
+              <span class="media-left">
+                <i class="flaticon-sports"></i>
+              </span>
+              <div class="media-body">
+                <h5>Swimming Pool</h5>
+                <p>
+                 Relax yourself with our in-house world class swimming pool services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
